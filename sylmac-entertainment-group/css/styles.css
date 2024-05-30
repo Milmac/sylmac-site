@@ -37,7 +37,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/brooklyn-bridge.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 
     box-shadow: inset 0 0 500px #00000096;
@@ -75,10 +75,17 @@
     height: 100%;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center 30%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Media query for desktops and larger devices */
+@media (min-width: 768px) {
+    .parallax {
+        background-attachment: fixed;
+    }
 }
 
 .sylmac-logo{
