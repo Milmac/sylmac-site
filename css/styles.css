@@ -58,6 +58,7 @@
 .navbar-brand,
 .nav-link {
     color: #fff !important;
+    font-size: 18px;
 }
 
 .parallax {
