@@ -30,7 +30,7 @@
 }
 
 .full-page-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/images/brooklyn-bridge.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/brooklyn-bridge.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -63,7 +63,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url('/images/brooklyn-subway-blur.jpg');
+    background-image: url('../images/brooklyn-subway-blur.jpg');
 
     /* Full height */
     height: 100%;
